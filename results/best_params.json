@@ -1,0 +1,22 @@
+{
+  "selected_model": "Random Forest",
+  "params": {
+    "Logistic Regression": {
+      "C": 1
+    },
+    "Random Forest": {
+      "max_depth": 3,
+      "min_samples_leaf": 1
+    },
+    "Gradient Boosting": {
+      "learning_rate": 0.05,
+      "max_depth": 2,
+      "n_estimators": 50
+    },
+    "XGBoost": {
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "n_estimators": 100
+    }
+  }
+}

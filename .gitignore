@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Raw data is downloaded automatically by src/preprocessing.py (see data/README.md)
+data/raw/*
+!data/raw/.gitkeep
